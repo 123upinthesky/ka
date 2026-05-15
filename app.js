@@ -73,11 +73,12 @@ function makeBarDistribution(title, rows, unit, dealerName) {
 }
 
 function makeComboCplChart(title, costValues, countValues, lineClass) {
-  const width = 580;
-  const height = 430;
-  const padding = { top: 52, right: 34, bottom: 52, left: 88 };
-  const costPlot = { top: 62, bottom: 204 };
-  const countPlot = { top: 250, bottom: 378 };
+  const width = 620;
+  const height = 500;
+  const padding = { top: 54, right: 30, bottom: 30, left: 48 };
+  const safe = 18;
+  const costPlot = { top: 88, bottom: 242 };
+  const countPlot = { top: 322, bottom: 470 };
   const costs = costValues.map((value) => value || 0);
   const counts = countValues.map((value) => value || 0);
   const maxCost = Math.max(1, ...costs) * 1.12;
@@ -88,12 +89,13 @@ function makeComboCplChart(title, costValues, countValues, lineClass) {
   const yCount = (value) => countPlot.top + (countPlot.bottom - countPlot.top) * (1 - value / maxCount);
   const costPoints = costs.map((value, index) => `${x(index)},${yCost(value)}`).join(" ");
   const countPoints = counts.map((value, index) => `${x(index)},${yCount(value)}`).join(" ");
+  const plotRight = width - padding.right;
   const costAxis = [0, 0.5, 1]
     .map((ratio) => {
       const axisY = costPlot.top + (costPlot.bottom - costPlot.top) * (1 - ratio);
       return `
         <text class="tick" x="${padding.left - 10}" y="${axisY + 4}" text-anchor="end">${rub.format(maxCost * ratio)}</text>
-        <line class="grid-line" x1="${padding.left}" x2="${width - padding.right}" y1="${axisY}" y2="${axisY}"></line>
+        <line class="grid-line" x1="${padding.left}" x2="${plotRight}" y1="${axisY}" y2="${axisY}"></line>
       `;
     })
     .join("");
@@ -102,21 +104,43 @@ function makeComboCplChart(title, costValues, countValues, lineClass) {
       const axisY = countPlot.top + (countPlot.bottom - countPlot.top) * (1 - ratio);
       return `
         <text class="tick" x="${padding.left - 10}" y="${axisY + 4}" text-anchor="end">${rub.format(maxCount * ratio)}</text>
-        <line class="grid-line" x1="${padding.left}" x2="${width - padding.right}" y1="${axisY}" y2="${axisY}"></line>
+        <line class="grid-line" x1="${padding.left}" x2="${plotRight}" y1="${axisY}" y2="${axisY}"></line>
       `;
     })
     .join("");
+  const pointLabel = ({ text, xValue, yValue, plot, className, index, total }) => {
+    let labelX = xValue;
+    let labelY = yValue - 16;
+    let anchor = "middle";
+    if (yValue - 20 < plot.top + safe) labelY = yValue + 22;
+    if (labelY > plot.bottom - safe) labelY = yValue - 18;
+    if (xValue < padding.left + 72) {
+      labelX = xValue + 14;
+      anchor = "start";
+    } else if (xValue > plotRight - 72) {
+      labelX = xValue - 14;
+      anchor = "end";
+    } else {
+      labelX = xValue + (index % 2 === 0 ? -12 : 12);
+      labelY += index % 2 === 0 ? -4 : 4;
+    }
+    if (total > 2 && index > 0 && index < total - 1) labelY += index % 2 === 0 ? -14 : 14;
+    labelY = Math.max(plot.top + safe, Math.min(plot.bottom - safe, labelY));
+    return `<text class="${className}" x="${labelX}" y="${labelY}" text-anchor="${anchor}">${text}</text>`;
+  };
   const labels = months
     .map((month, index) => {
       const pointX = x(index);
       const cost = costs[index];
       const count = counts[index];
+      const costY = yCost(cost);
+      const countY = yCount(count);
       return `
         <text class="tick" x="${pointX}" y="${height - 20}" text-anchor="middle">${month.replace(" 2026", "")}</text>
-        <text class="value-label" x="${pointX}" y="${Math.max(padding.top - 8, yCost(cost) - 16)}" text-anchor="middle">${rub.format(cost)} ₽</text>
-        <text class="count-label" x="${pointX}" y="${Math.min(height - padding.bottom - 10, yCount(count) + 22)}" text-anchor="middle">${rub.format(count)} лид.</text>
-        <circle class="${lineClass === "series-red" ? "point-red" : "point-black"}" cx="${pointX}" cy="${yCost(cost)}" r="6"></circle>
-        <circle class="point-green" cx="${pointX}" cy="${yCount(count)}" r="6"></circle>
+        ${pointLabel({ text: `${rub.format(cost)} ₽`, xValue: pointX, yValue: costY, plot: costPlot, className: "value-label", index, total: months.length })}
+        ${pointLabel({ text: `${rub.format(count)} лид.`, xValue: pointX, yValue: countY, plot: countPlot, className: "count-label", index: index + 1, total: months.length })}
+        <circle class="${lineClass === "series-red" ? "point-red" : "point-black"}" cx="${pointX}" cy="${costY}" r="6"></circle>
+        <circle class="point-green" cx="${pointX}" cy="${countY}" r="6"></circle>
       `;
     })
     .join("");
@@ -127,8 +151,8 @@ function makeComboCplChart(title, costValues, countValues, lineClass) {
       <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${title}">
         <line class="axis" x1="${padding.left}" x2="${padding.left}" y1="${costPlot.top}" y2="${costPlot.bottom}"></line>
         <line class="axis" x1="${padding.left}" x2="${padding.left}" y1="${countPlot.top}" y2="${countPlot.bottom}"></line>
-        <text class="chart-note" x="${padding.left}" y="34">Плоскость 1: средняя стоимость лида</text>
-        <text class="chart-note" x="${padding.left}" y="${countPlot.top - 20}">Плоскость 2: количество лидов</text>
+        <text class="chart-note" x="${padding.left}" y="${costPlot.top - 18}">Плоскость 1: средняя стоимость лида</text>
+        <text class="chart-note" x="${padding.left}" y="${countPlot.top - 18}">Плоскость 2: количество лидов</text>
         ${costAxis}
         ${countAxis}
         <circle class="${lineClass === "series-red" ? "point-red" : "point-black"}" cx="${padding.left}" cy="16" r="5"></circle>
