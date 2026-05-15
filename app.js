@@ -37,13 +37,13 @@ function dealerMetricByMonth(rowsByMonth, dealerName) {
 }
 
 function makeBarDistribution(title, rows, unit, dealerName) {
-  const width = 560;
-  const height = 332;
-  const padding = { top: 20, right: 24, bottom: 142, left: 42 };
+  const width = 940;
+  const height = 360;
+  const padding = { top: 24, right: 30, bottom: 128, left: 48 };
   const values = rows.map((row) => row.value);
   const max = Math.max(1, ...values) * 1.12;
   const innerWidth = width - padding.left - padding.right;
-  const barGap = 8;
+  const barGap = rows.length > 10 ? 10 : 16;
   const barWidth = Math.max(12, (innerWidth - barGap * Math.max(0, rows.length - 1)) / Math.max(1, rows.length));
   const y = (value) => padding.top + (height - padding.top - padding.bottom) * (1 - value / max);
   const bars = rows
@@ -52,10 +52,11 @@ function makeBarDistribution(title, rows, unit, dealerName) {
       const barY = y(row.value);
       const barHeight = height - padding.bottom - barY;
       const isDealer = isReportDealer(row.name, dealerName);
+      const labelX = barX + barWidth / 2;
       return `
         <rect class="${isDealer ? "bar-red" : "bar-black"}" x="${barX}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="4"></rect>
-        <text class="tick" x="${barX + barWidth / 2}" y="${height - 118}" text-anchor="middle">${svgWrappedName(row.name, dealerName, barX + barWidth / 2, 10, 7)}</text>
-        <text class="value-label" x="${barX + barWidth / 2}" y="${barY - 9}" text-anchor="middle">${rub.format(row.value)}</text>
+        <text class="dealer-label" x="${labelX}" y="${height - 98}" text-anchor="middle">${svgWrappedName(row.name, dealerName, labelX, 12, 3)}</text>
+        <text class="value-label" x="${labelX}" y="${barY - 9}" text-anchor="middle">${rub.format(row.value)}</text>
       `;
     })
     .join("");
@@ -198,7 +199,7 @@ function wrapDealerName(name, dealerName, maxLength = 10) {
 function svgWrappedName(name, dealerName, x, maxLength = 10, maxLines = 7) {
   const lines = wrapDealerName(name, dealerName, maxLength);
   const visible = lines.slice(0, maxLines);
-  if (lines.length > maxLines) visible[visible.length - 1] = `${visible.at(-1).slice(0, Math.max(1, maxLength - 1))}.`;
+  if (lines.length > maxLines) visible[visible.length - 1] = `${visible.at(-1).slice(0, Math.max(1, maxLength - 2))}...`;
   return visible
     .map((line, index) => `<tspan x="${x}" dy="${index === 0 ? 0 : 12}">${escapeSvg(line)}</tspan>`)
     .join("");
