@@ -38,8 +38,8 @@ function dealerMetricByMonth(rowsByMonth, dealerName) {
 
 function makeBarDistribution(title, rows, unit, dealerName) {
   const width = 940;
-  const height = 360;
-  const padding = { top: 24, right: 30, bottom: 128, left: 48 };
+  const height = 430;
+  const padding = { top: 28, right: 34, bottom: 160, left: 54 };
   const values = rows.map((row) => row.value);
   const max = Math.max(1, ...values) * 1.12;
   const innerWidth = width - padding.left - padding.right;
@@ -55,7 +55,7 @@ function makeBarDistribution(title, rows, unit, dealerName) {
       const labelX = barX + barWidth / 2;
       return `
         <rect class="${isDealer ? "bar-red" : "bar-black"}" x="${barX}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="4"></rect>
-        <text class="dealer-label" x="${labelX}" y="${height - 98}" text-anchor="middle">${svgWrappedName(row.name, dealerName, labelX, 12, 3)}</text>
+        <text class="dealer-label" x="${labelX}" y="${height - 132}" text-anchor="middle">${svgWrappedName(row.name, dealerName, labelX, 12, 3)}</text>
         <text class="value-label" x="${labelX}" y="${barY - 9}" text-anchor="middle">${rub.format(row.value)}</text>
       `;
     })
