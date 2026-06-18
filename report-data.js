@@ -1,58 +1,50 @@
 window.AUTO_RU_REPORT_DATA = {
   "months": [
-    "Апрель 2026",
-    "Май 2026"
+    "Май 2026",
+    "Июнь 2026"
   ],
   "reportDealer": "Форсаж",
-  "sourceFile": "подготовка к регулярке Форсаж.xlsx",
-  "updatedAt": "2026-05-14T15:44:13",
+  "sourceFile": "подготовка к регулярке Форсаж 18 июня.xlsx",
+  "updatedAt": "2026-06-18T00:00:00",
   "brandData": {
     "Bestune": {
       "dealer": "Bestune Центр Форсаж",
       "summary": {
-        "leads": 4,
+        "leads": 3,
         "cpl": 7377,
-        "listings": 21
+        "listings": 20
       },
       "leads": [
         [
           {
             "name": "BESTUNE Центр Авто Премиум",
-            "value": 2
-          },
-          {
-            "name": "Bestune Центр Атлант Моторс",
             "value": 4
           },
           {
-            "name": "Bestune Центр Вагнер Таллинский",
-            "value": 1
+            "name": "Bestune Центр Атлант Моторс",
+            "value": 6
           },
           {
             "name": "Bestune Центр Пулково",
-            "value": 2
+            "value": 10
           },
           {
             "name": "Bestune Центр Форсаж",
-            "value": 2
+            "value": 4
           }
         ],
         [
           {
             "name": "BESTUNE Центр Авто Премиум",
-            "value": 0
+            "value": 1
           },
           {
             "name": "Bestune Центр Атлант Моторс",
-            "value": 0
-          },
-          {
-            "name": "Bestune Центр Вагнер Таллинский",
-            "value": 0
+            "value": 11
           },
           {
             "name": "Bestune Центр Пулково",
-            "value": 0
+            "value": 10
           },
           {
             "name": "Bestune Центр Форсаж",
@@ -68,15 +60,11 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Bestune Центр Атлант Моторс",
-            "value": 120
-          },
-          {
-            "name": "Bestune Центр Вагнер Таллинский",
-            "value": 2
+            "value": 110
           },
           {
             "name": "Bestune Центр Пулково",
-            "value": 112
+            "value": 101
           },
           {
             "name": "Bestune Центр Форсаж",
@@ -84,25 +72,21 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "BESTUNE ЦЕНТР ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 5
+            "value": 4
           }
         ],
         [
           {
             "name": "BESTUNE Центр Авто Премиум",
-            "value": 5
+            "value": 8
           },
           {
             "name": "Bestune Центр Атлант Моторс",
-            "value": 117
-          },
-          {
-            "name": "Bestune Центр Вагнер Таллинский",
-            "value": 0
+            "value": 114
           },
           {
             "name": "Bestune Центр Пулково",
-            "value": 112
+            "value": 103
           },
           {
             "name": "Bestune Центр Форсаж",
@@ -119,38 +103,100 @@ window.AUTO_RU_REPORT_DATA = {
         7377
       ],
       "cplMarket": [
-        7451,
+        7377,
         7377
       ],
       "marketAuctionCount": [
-        11,
-        2
+        22,
+        23
+      ],
+      "dealerAuctionCount": [
+        2,
+        1
       ]
     },
     "Foton": {
       "dealer": "FOTON ФОРСАЖ",
       "summary": {
-        "leads": 7,
-        "cpl": 8278,
-        "listings": 11
+        "leads": 6,
+        "cpl": 8224,
+        "listings": 21
       },
       "leads": [
         [
           {
             "name": "Foton Дакар",
-            "value": 9
+            "value": 3
           },
           {
             "name": "FOTON ФОРСАЖ",
-            "value": 5
+            "value": 3
           },
           {
             "name": "АВАНГАРД Foton",
-            "value": 1
+            "value": 0
+          },
+          {
+            "name": "Автобиография Foton",
+            "value": 7
+          },
+          {
+            "name": "Атлант Foton",
+            "value": 8
+          },
+          {
+            "name": "Звезда Невы Foton",
+            "value": 2
+          }
+        ],
+        [
+          {
+            "name": "Foton Дакар",
+            "value": 3
+          },
+          {
+            "name": "FOTON ФОРСАЖ",
+            "value": 3
+          },
+          {
+            "name": "АВАНГАРД Foton",
+            "value": 0
+          },
+          {
+            "name": "Автобиография Foton",
+            "value": 3
+          },
+          {
+            "name": "Атлант Foton",
+            "value": 5
+          },
+          {
+            "name": "Звезда Невы Foton",
+            "value": 2
+          }
+        ]
+      ],
+      "listings": [
+        [
+          {
+            "name": "Foton Дакар",
+            "value": 4
+          },
+          {
+            "name": "FOTON ФОРСАЖ",
+            "value": 10
+          },
+          {
+            "name": "АВАНГАРД Foton",
+            "value": 6
           },
           {
             "name": "Автобиография Foton",
             "value": 4
+          },
+          {
+            "name": "Автобиография Центр",
+            "value": 1
           },
           {
             "name": "Атлант Foton",
@@ -158,153 +204,107 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Звезда Невы Foton",
-            "value": 16
+            "value": 11
           }
         ],
         [
           {
             "name": "Foton Дакар",
+            "value": 4
+          },
+          {
+            "name": "FOTON ФОРСАЖ",
+            "value": 11
+          },
+          {
+            "name": "АВАНГАРД Foton",
+            "value": 3
+          },
+          {
+            "name": "Автобиография Foton",
+            "value": 4
+          },
+          {
+            "name": "Автобиография Центр",
             "value": 1
           },
           {
-            "name": "FOTON ФОРСАЖ",
-            "value": 2
-          },
-          {
-            "name": "АВАНГАРД Foton",
-            "value": 0
-          },
-          {
-            "name": "Автобиография Foton",
-            "value": 5
-          },
-          {
             "name": "Атлант Foton",
-            "value": 4
+            "value": 11
           },
           {
             "name": "Звезда Невы Foton",
-            "value": 0
-          }
-        ]
-      ],
-      "listings": [
-        [
-          {
-            "name": "Foton Дакар",
-            "value": 2
-          },
-          {
-            "name": "FOTON ФОРСАЖ",
-            "value": 6
-          },
-          {
-            "name": "АВАНГАРД Foton",
-            "value": 5
-          },
-          {
-            "name": "Автобиография Foton",
-            "value": 4
-          },
-          {
-            "name": "Атлант Foton",
-            "value": 4
-          },
-          {
-            "name": "Звезда Невы Foton",
-            "value": 17
-          }
-        ],
-        [
-          {
-            "name": "Foton Дакар",
-            "value": 5
-          },
-          {
-            "name": "FOTON ФОРСАЖ",
-            "value": 5
-          },
-          {
-            "name": "АВАНГАРД Foton",
-            "value": 6
-          },
-          {
-            "name": "Автобиография Foton",
-            "value": 4
-          },
-          {
-            "name": "Атлант Foton",
-            "value": 13
-          },
-          {
-            "name": "Звезда Невы Foton",
-            "value": 15
+            "value": 8
           }
         ]
       ],
       "cplDealer": [
-        8032,
-        8278
+        8251,
+        8196
       ],
       "cplMarket": [
-        7524,
-        7991
+        7829,
+        7756
       ],
       "marketAuctionCount": [
-        46,
-        12
+        23,
+        16
+      ],
+      "dealerAuctionCount": [
+        3,
+        3
       ]
     },
     "GAC": {
       "dealer": "GAC Форсаж",
       "summary": {
-        "leads": 26,
-        "cpl": 11580,
-        "listings": 50
+        "leads": 29,
+        "cpl": 11914,
+        "listings": 49
       },
       "leads": [
         [
           {
             "name": "GAC Автополе",
-            "value": 7
+            "value": 14
           },
           {
             "name": "GAC ИАТ Приморский",
-            "value": 18
+            "value": 9
           },
           {
             "name": "GAC Мэйджор Олимп",
-            "value": 17
+            "value": 10
           },
           {
             "name": "GAC Форсаж",
-            "value": 19
+            "value": 25
           },
           {
             "name": "GAC Центр Волхонский",
-            "value": 21
+            "value": 8
           },
           {
             "name": "GAC Центр Петербург",
-            "value": 22
+            "value": 26
           },
           {
             "name": "Автобиография GAC",
-            "value": 28
+            "value": 29
           }
         ],
         [
           {
             "name": "GAC Автополе",
-            "value": 6
+            "value": 7
           },
           {
             "name": "GAC ИАТ Приморский",
-            "value": 6
+            "value": 5
           },
           {
             "name": "GAC Мэйджор Олимп",
-            "value": 9
+            "value": 11
           },
           {
             "name": "GAC Форсаж",
@@ -312,15 +312,15 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "GAC Центр Волхонский",
-            "value": 6
+            "value": 5
           },
           {
             "name": "GAC Центр Петербург",
-            "value": 6
+            "value": 10
           },
           {
             "name": "Автобиография GAC",
-            "value": 13
+            "value": 6
           }
         ]
       ],
@@ -328,15 +328,49 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "GAC Автополе",
-            "value": 189
+            "value": 205
           },
           {
             "name": "GAC ИАТ Приморский",
-            "value": 217
+            "value": 115
           },
           {
             "name": "GAC Мэйджор Олимп",
             "value": 23
+          },
+          {
+            "name": "GAC Форсаж",
+            "value": 23
+          },
+          {
+            "name": "GAC Центр Волхонский",
+            "value": 75
+          },
+          {
+            "name": "GAC Центр Петербург",
+            "value": 57
+          },
+          {
+            "name": "АВТОDОМ BMW на Стартовой",
+            "value": 0
+          },
+          {
+            "name": "Автобиография GAC",
+            "value": 29
+          }
+        ],
+        [
+          {
+            "name": "GAC Автополе",
+            "value": 202
+          },
+          {
+            "name": "GAC ИАТ Приморский",
+            "value": 203
+          },
+          {
+            "name": "GAC Мэйджор Олимп",
+            "value": 32
           },
           {
             "name": "GAC Форсаж",
@@ -344,163 +378,141 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "GAC Центр Волхонский",
-            "value": 218
+            "value": 155
           },
           {
             "name": "GAC Центр Петербург",
-            "value": 61
+            "value": 58
+          },
+          {
+            "name": "АВТОDОМ BMW на Стартовой",
+            "value": 0
           },
           {
             "name": "Автобиография GAC",
-            "value": 34
-          }
-        ],
-        [
-          {
-            "name": "GAC Автополе",
-            "value": 204
-          },
-          {
-            "name": "GAC ИАТ Приморский",
-            "value": 211
-          },
-          {
-            "name": "GAC Мэйджор Олимп",
-            "value": 21
-          },
-          {
-            "name": "GAC Форсаж",
-            "value": 24
-          },
-          {
-            "name": "GAC Центр Волхонский",
-            "value": 168
-          },
-          {
-            "name": "GAC Центр Петербург",
-            "value": 60
-          },
-          {
-            "name": "Автобиография GAC",
-            "value": 34
+            "value": 30
           }
         ]
       ],
       "cplDealer": [
-        9249,
-        11580
+        11769,
+        12060
       ],
       "cplMarket": [
-        9460,
-        9746
+        10002,
+        10146
       ],
       "marketAuctionCount": [
-        132,
-        53
+        113,
+        48
+      ],
+      "dealerAuctionCount": [
+        22,
+        7
       ]
     },
     "Haval": {
       "dealer": "Форсаж Haval",
       "summary": {
-        "leads": 94,
-        "cpl": 9319,
-        "listings": 187
+        "leads": 128,
+        "cpl": 10415,
+        "listings": 218
       },
       "leads": [
         [
           {
             "name": "HAVAL CITY Максимум",
-            "value": 37
+            "value": 53
           },
           {
             "name": "HAVAL CITY Мэйджор Олимп",
-            "value": 35
+            "value": 18
           },
           {
             "name": "HAVAL PRO Аларм-Моторс",
-            "value": 83
+            "value": 69
           },
           {
             "name": "HAVAL PRO Максимум",
-            "value": 13
+            "value": 22
           },
           {
             "name": "Haval Pro СПб Юг",
-            "value": 45
+            "value": 33
           },
           {
             "name": "Haval ИАТ Парнас",
-            "value": 40
+            "value": 37
           },
           {
             "name": "Авангард Haval Pro",
-            "value": 43
+            "value": 33
           },
           {
             "name": "Автопродикс HAVAL PRO",
-            "value": 58
+            "value": 49
           },
           {
             "name": "Автопродикс Haval Московский",
-            "value": 54
+            "value": 77
           },
           {
             "name": "Аларм-Моторс Haval Север",
-            "value": 104
+            "value": 80
           },
           {
             "name": "Аларм-Моторс Haval Юг",
-            "value": 111
+            "value": 101
           },
           {
             "name": "МАКСИМУМ Китайская Деревня",
-            "value": 4
+            "value": 18
           },
           {
             "name": "Мэйджор Олимп Haval PRO",
-            "value": 24
+            "value": 17
           },
           {
             "name": "НАVАL CITY Автопродикс",
-            "value": 66
+            "value": 62
           },
           {
             "name": "Рольф Haval Pro СПБ",
-            "value": 79
+            "value": 58
           },
           {
             "name": "Форсаж Haval",
-            "value": 64
+            "value": 98
           },
           {
             "name": "Хавейл Лахта",
-            "value": 71
+            "value": 64
           },
           {
             "name": "Хавейл СПБ-ЮГ",
-            "value": 68
+            "value": 61
           },
           {
             "name": "Элан-Моторс HAVAL",
-            "value": 16
+            "value": 15
           }
         ],
         [
           {
             "name": "HAVAL CITY Максимум",
-            "value": 30
+            "value": 18
           },
           {
             "name": "HAVAL CITY Мэйджор Олимп",
-            "value": 9
+            "value": 11
           },
           {
             "name": "HAVAL PRO Аларм-Моторс",
-            "value": 27
+            "value": 28
           },
           {
             "name": "HAVAL PRO Максимум",
-            "value": 8
+            "value": 14
           },
           {
             "name": "Haval Pro СПб Юг",
@@ -508,11 +520,11 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Haval ИАТ Парнас",
-            "value": 15
+            "value": 13
           },
           {
             "name": "Авангард Haval Pro",
-            "value": 22
+            "value": 24
           },
           {
             "name": "Автопродикс HAVAL PRO",
@@ -520,47 +532,47 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Автопродикс Haval Московский",
-            "value": 31
-          },
-          {
-            "name": "Аларм-Моторс Haval Север",
-            "value": 41
-          },
-          {
-            "name": "Аларм-Моторс Haval Юг",
-            "value": 30
-          },
-          {
-            "name": "МАКСИМУМ Китайская Деревня",
-            "value": 4
-          },
-          {
-            "name": "Мэйджор Олимп Haval PRO",
-            "value": 8
-          },
-          {
-            "name": "НАVАL CITY Автопродикс",
-            "value": 30
-          },
-          {
-            "name": "Рольф Haval Pro СПБ",
-            "value": 27
-          },
-          {
-            "name": "Форсаж Haval",
-            "value": 30
-          },
-          {
-            "name": "Хавейл Лахта",
-            "value": 30
-          },
-          {
-            "name": "Хавейл СПБ-ЮГ",
             "value": 23
           },
           {
-            "name": "Элан-Моторс HAVAL",
+            "name": "Аларм-Моторс Haval Север",
+            "value": 51
+          },
+          {
+            "name": "Аларм-Моторс Haval Юг",
+            "value": 52
+          },
+          {
+            "name": "МАКСИМУМ Китайская Деревня",
+            "value": 8
+          },
+          {
+            "name": "Мэйджор Олимп Haval PRO",
+            "value": 11
+          },
+          {
+            "name": "НАVАL CITY Автопродикс",
+            "value": 26
+          },
+          {
+            "name": "Рольф Haval Pro СПБ",
+            "value": 30
+          },
+          {
+            "name": "Форсаж Haval",
+            "value": 35
+          },
+          {
+            "name": "Хавейл Лахта",
             "value": 15
+          },
+          {
+            "name": "Хавейл СПБ-ЮГ",
+            "value": 24
+          },
+          {
+            "name": "Элан-Моторс HAVAL",
+            "value": 14
           }
         ]
       ],
@@ -568,101 +580,23 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "HAVAL CITY Максимум",
-            "value": 202
+            "value": 151
           },
           {
             "name": "HAVAL CITY Мэйджор Олимп",
-            "value": 42
+            "value": 49
           },
           {
             "name": "HAVAL PRO Аларм-Моторс",
-            "value": 133
+            "value": 148
           },
           {
             "name": "HAVAL PRO Максимум",
-            "value": 120
+            "value": 122
           },
           {
             "name": "Haval Pro СПб Юг",
-            "value": 126
-          },
-          {
-            "name": "Haval ИАТ Парнас",
-            "value": 92
-          },
-          {
-            "name": "Авангард Haval Pro",
-            "value": 83
-          },
-          {
-            "name": "Автопродикс HAVAL PRO",
-            "value": 150
-          },
-          {
-            "name": "Автопродикс Haval Московский",
-            "value": 190
-          },
-          {
-            "name": "Аларм-Моторс Haval Север",
-            "value": 213
-          },
-          {
-            "name": "Аларм-Моторс Haval Юг",
-            "value": 212
-          },
-          {
-            "name": "МАКСИМУМ Китайская Деревня",
-            "value": 35
-          },
-          {
-            "name": "Мэйджор Олимп Haval PRO",
-            "value": 20
-          },
-          {
-            "name": "НАVАL CITY Автопродикс",
-            "value": 202
-          },
-          {
-            "name": "Рольф Haval Pro СПБ",
-            "value": 167
-          },
-          {
-            "name": "Форсаж Haval",
-            "value": 102
-          },
-          {
-            "name": "Хавейл Лахта",
-            "value": 85
-          },
-          {
-            "name": "Хавейл СПБ-ЮГ",
-            "value": 65
-          },
-          {
-            "name": "Элан-Моторс HAVAL",
-            "value": 28
-          }
-        ],
-        [
-          {
-            "name": "HAVAL CITY Максимум",
-            "value": 169
-          },
-          {
-            "name": "HAVAL CITY Мэйджор Олимп",
-            "value": 52
-          },
-          {
-            "name": "HAVAL PRO Аларм-Моторс",
-            "value": 90
-          },
-          {
-            "name": "HAVAL PRO Максимум",
-            "value": 115
-          },
-          {
-            "name": "Haval Pro СПб Юг",
-            "value": 128
+            "value": 161
           },
           {
             "name": "Haval ИАТ Парнас",
@@ -670,87 +604,173 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Авангард Haval Pro",
-            "value": 95
+            "value": 62
           },
           {
             "name": "Автопродикс HAVAL PRO",
-            "value": 99
+            "value": 109
           },
           {
             "name": "Автопродикс Haval Московский",
-            "value": 179
+            "value": 184
           },
           {
             "name": "Аларм-Моторс Haval Север",
-            "value": 224
+            "value": 238
           },
           {
             "name": "Аларм-Моторс Haval Юг",
-            "value": 224
+            "value": 228
           },
           {
             "name": "МАКСИМУМ Китайская Деревня",
-            "value": 77
+            "value": 79
           },
           {
             "name": "Мэйджор Олимп Haval PRO",
-            "value": 21
+            "value": 23
           },
           {
             "name": "НАVАL CITY Автопродикс",
-            "value": 218
+            "value": 259
           },
           {
             "name": "Рольф Haval Pro СПБ",
-            "value": 157
+            "value": 189
           },
           {
             "name": "Форсаж Haval",
-            "value": 85
+            "value": 94
           },
           {
             "name": "Хавейл Лахта",
-            "value": 77
+            "value": 105
           },
           {
             "name": "Хавейл СПБ-ЮГ",
-            "value": 65
+            "value": 111
           },
           {
             "name": "Элан-Моторс HAVAL",
-            "value": 38
+            "value": 12
+          }
+        ],
+        [
+          {
+            "name": "HAVAL CITY Максимум",
+            "value": 141
+          },
+          {
+            "name": "HAVAL CITY Мэйджор Олимп",
+            "value": 52
+          },
+          {
+            "name": "HAVAL PRO Аларм-Моторс",
+            "value": 223
+          },
+          {
+            "name": "HAVAL PRO Максимум",
+            "value": 129
+          },
+          {
+            "name": "Haval Pro СПб Юг",
+            "value": 155
+          },
+          {
+            "name": "Haval ИАТ Парнас",
+            "value": 202
+          },
+          {
+            "name": "Авангард Haval Pro",
+            "value": 89
+          },
+          {
+            "name": "Автопродикс HAVAL PRO",
+            "value": 95
+          },
+          {
+            "name": "Автопродикс Haval Московский",
+            "value": 186
+          },
+          {
+            "name": "Аларм-Моторс Haval Север",
+            "value": 219
+          },
+          {
+            "name": "Аларм-Моторс Haval Юг",
+            "value": 213
+          },
+          {
+            "name": "МАКСИМУМ Китайская Деревня",
+            "value": 61
+          },
+          {
+            "name": "Мэйджор Олимп Haval PRO",
+            "value": 27
+          },
+          {
+            "name": "НАVАL CITY Автопродикс",
+            "value": 282
+          },
+          {
+            "name": "Рольф Haval Pro СПБ",
+            "value": 192
+          },
+          {
+            "name": "Форсаж Haval",
+            "value": 124
+          },
+          {
+            "name": "Хавейл Лахта",
+            "value": 111
+          },
+          {
+            "name": "Хавейл СПБ-ЮГ",
+            "value": 120
+          },
+          {
+            "name": "Элан-Моторс HAVAL",
+            "value": 34
           }
         ]
       ],
       "cplDealer": [
-        9155,
-        9319
+        9840,
+        10990
       ],
       "cplMarket": [
-        9241,
-        10631
+        10161,
+        10899
       ],
       "marketAuctionCount": [
-        1,
+        927,
         416
+      ],
+      "dealerAuctionCount": [
+        94,
+        34
       ]
     },
     "JAC": {
       "dealer": "JAC ЦЕНТР ФОРСАЖ",
       "summary": {
-        "leads": 16,
+        "leads": 10,
         "cpl": 7377,
-        "listings": 19
+        "listings": 20
       },
       "leads": [
         [
           {
+            "name": "JAC Motors",
+            "value": 2
+          },
+          {
             "name": "JAC ЦЕНТР БЕТА ПУЛКОВО",
-            "value": 9
+            "value": 7
           },
           {
             "name": "JAC ЦЕНТР ФОРСАЖ",
-            "value": 11
+            "value": 7
           },
           {
             "name": "Автопремиум Jac",
@@ -759,12 +779,16 @@ window.AUTO_RU_REPORT_DATA = {
         ],
         [
           {
+            "name": "JAC Motors",
+            "value": 0
+          },
+          {
             "name": "JAC ЦЕНТР БЕТА ПУЛКОВО",
-            "value": 2
+            "value": 5
           },
           {
             "name": "JAC ЦЕНТР ФОРСАЖ",
-            "value": 5
+            "value": 6
           },
           {
             "name": "Автопремиум Jac",
@@ -775,12 +799,16 @@ window.AUTO_RU_REPORT_DATA = {
       "listings": [
         [
           {
+            "name": "JAC Motors",
+            "value": 1
+          },
+          {
             "name": "JAC ЦЕНТР БЕТА ПУЛКОВО",
-            "value": 42
+            "value": 48
           },
           {
             "name": "JAC ЦЕНТР ФОРСАЖ",
-            "value": 10
+            "value": 9
           },
           {
             "name": "Автопремиум Jac",
@@ -789,12 +817,16 @@ window.AUTO_RU_REPORT_DATA = {
         ],
         [
           {
+            "name": "JAC Motors",
+            "value": 0
+          },
+          {
             "name": "JAC ЦЕНТР БЕТА ПУЛКОВО",
-            "value": 46
+            "value": 44
           },
           {
             "name": "JAC ЦЕНТР ФОРСАЖ",
-            "value": 9
+            "value": 11
           },
           {
             "name": "Автопремиум Jac",
@@ -807,20 +839,24 @@ window.AUTO_RU_REPORT_DATA = {
         7377
       ],
       "cplMarket": [
-        7377,
+        7435,
         7377
       ],
       "marketAuctionCount": [
-        20,
-        7
+        14,
+        10
+      ],
+      "dealerAuctionCount": [
+        5,
+        5
       ]
     },
     "Jetour": {
       "dealer": "Jetour Форсаж",
       "summary": {
-        "leads": 34,
-        "cpl": 23076,
-        "listings": 64
+        "leads": 39,
+        "cpl": 22726,
+        "listings": 77
       },
       "leads": [
         [
@@ -829,12 +865,16 @@ window.AUTO_RU_REPORT_DATA = {
             "value": 3
           },
           {
-            "name": "JETOUR Автопродикс  Московский",
-            "value": 11
+            "name": "JETOUR Автопродикс Московский",
+            "value": 9
           },
           {
             "name": "JETOUR Автопродикс Приморский",
             "value": 8
+          },
+          {
+            "name": "JETOUR Автостиль",
+            "value": 10
           },
           {
             "name": "JETOUR Максимум",
@@ -842,85 +882,81 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Jetour Мотор Ленд",
-            "value": 2
+            "value": 14
           },
           {
             "name": "Jetour Форсаж",
-            "value": 21
+            "value": 34
           },
           {
             "name": "Автобиография Центр",
-            "value": 2
+            "value": 9
           },
           {
             "name": "Автопремиум Jetour",
-            "value": 16
+            "value": 7
           },
           {
             "name": "Аларм-Моторс Jetour",
-            "value": 37
+            "value": 22
           },
           {
             "name": "Джетур Автопортрет",
-            "value": 24
+            "value": 21
           },
           {
             "name": "Джетур Центр Вагнер",
             "value": 26
-          },
-          {
-            "name": "Китайская деревня Мурино",
-            "value": 0
           }
         ],
         [
           {
             "name": "JETOUR Автополе Санкт-Петербург",
-            "value": 0
-          },
-          {
-            "name": "JETOUR Автопродикс  Московский",
             "value": 3
           },
           {
+            "name": "JETOUR Автопродикс Московский",
+            "value": 4
+          },
+          {
             "name": "JETOUR Автопродикс Приморский",
+            "value": 11
+          },
+          {
+            "name": "JETOUR Автостиль",
             "value": 1
           },
           {
             "name": "JETOUR Максимум",
-            "value": 7
+            "value": 19
           },
           {
             "name": "Jetour Мотор Ленд",
-            "value": 6
+            "value": 2
           },
           {
             "name": "Jetour Форсаж",
-            "value": 13
+            "value": 11
           },
           {
             "name": "Автобиография Центр",
-            "value": 3
+            "value": 2
           },
           {
             "name": "Автопремиум Jetour",
-            "value": 5
+            "value": 4
           },
           {
             "name": "Аларм-Моторс Jetour",
-            "value": 12
+            "value": 23
           },
           {
             "name": "Джетур Автопортрет",
-            "value": 7
+            "value": 9
           },
           {
             "name": "Джетур Центр Вагнер",
             "value": 12
-          },
-          {
-            "name": "Китайская деревня Мурино",
-            "value": 0
           }
         ]
       ],
@@ -928,23 +964,27 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "JETOUR Автополе Санкт-Петербург",
-            "value": 199
+            "value": 207
           },
           {
             "name": "JETOUR Автопродикс Московский",
-            "value": 102
+            "value": 216
           },
           {
             "name": "JETOUR Автопродикс Приморский",
-            "value": 22
+            "value": 61
+          },
+          {
+            "name": "JETOUR Автостиль",
+            "value": 20
           },
           {
             "name": "JETOUR Максимум",
-            "value": 252
+            "value": 244
           },
           {
             "name": "Jetour Мотор Ленд",
-            "value": 14
+            "value": 29
           },
           {
             "name": "Jetour Форсаж",
@@ -952,109 +992,109 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Автобиография Центр",
-            "value": 7
+            "value": 17
           },
           {
             "name": "Автопремиум Jetour",
-            "value": 28
+            "value": 31
           },
           {
             "name": "Аларм-Моторс Jetour",
-            "value": 201
+            "value": 202
           },
           {
             "name": "Джетур Автопортрет",
-            "value": 32
+            "value": 161
           },
           {
             "name": "Джетур Центр Вагнер",
-            "value": 77
-          },
-          {
-            "name": "Китайская деревня Мурино",
-            "value": 5
+            "value": 203
           }
         ],
         [
           {
             "name": "JETOUR Автополе Санкт-Петербург",
-            "value": 202
+            "value": 220
           },
           {
             "name": "JETOUR Автопродикс Московский",
-            "value": 150
+            "value": 183
           },
           {
             "name": "JETOUR Автопродикс Приморский",
-            "value": 28
+            "value": 37
+          },
+          {
+            "name": "JETOUR Автостиль",
+            "value": 31
           },
           {
             "name": "JETOUR Максимум",
-            "value": 256
+            "value": 233
           },
           {
             "name": "Jetour Мотор Ленд",
-            "value": 26
+            "value": 34
           },
           {
             "name": "Jetour Форсаж",
-            "value": 28
+            "value": 41
           },
           {
             "name": "Автобиография Центр",
-            "value": 9
+            "value": 20
           },
           {
             "name": "Автопремиум Jetour",
-            "value": 27
+            "value": 34
           },
           {
             "name": "Аларм-Моторс Jetour",
-            "value": 234
+            "value": 198
           },
           {
             "name": "Джетур Автопортрет",
-            "value": 51
+            "value": 190
           },
           {
             "name": "Джетур Центр Вагнер",
-            "value": 219
-          },
-          {
-            "name": "Китайская деревня Мурино",
-            "value": 0
+            "value": 223
           }
         ]
       ],
       "cplDealer": [
-        16518,
-        23076
+        23767,
+        21684
       ],
       "cplMarket": [
-        12384,
-        14686
+        15876,
+        18328
       ],
       "marketAuctionCount": [
-        178,
-        69
+        177,
+        98
+      ],
+      "dealerAuctionCount": [
+        28,
+        11
       ]
     },
     "KGM": {
       "dealer": "KGM ФОРСАЖ КАМЧАТСКАЯ",
       "summary": {
-        "leads": 2,
-        "cpl": 7377,
-        "listings": 20
+        "leads": 0,
+        "cpl": 0,
+        "listings": 2
       },
       "leads": [
         [
           {
             "name": "KGM ДАКАР",
-            "value": 3
+            "value": 2
           },
           {
             "name": "KGM ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 2
+            "value": 0
           }
         ],
         [
@@ -1072,11 +1112,11 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "KGM ДАКАР",
-            "value": 10
+            "value": 12
           },
           {
             "name": "KGM ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 9
+            "value": 2
           }
         ],
         [
@@ -1086,105 +1126,109 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "KGM ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 11
+            "value": 0
           }
         ]
       ],
       "cplDealer": [
-        7377,
+        0,
         0
       ],
       "cplMarket": [
-        7868,
+        8196,
         0
       ],
       "marketAuctionCount": [
-        5,
+        1,
+        0
+      ],
+      "dealerAuctionCount": [
+        0,
         0
       ]
     },
     "Lada (ВАЗ)": {
       "dealer": "Форсаж LADA",
       "summary": {
-        "leads": 403,
-        "cpl": 5173,
-        "listings": 542
+        "leads": 390,
+        "cpl": 5495,
+        "listings": 509
       },
       "leads": [
         [
           {
             "name": "Автопродикс Лада",
-            "value": 5
+            "value": 4
           },
           {
             "name": "Аларм Моторс Лада",
-            "value": 113
+            "value": 98
           },
           {
             "name": "Лада Кудрово",
-            "value": 50
+            "value": 92
           },
           {
             "name": "ЛАДА–ЦЕНТР",
-            "value": 83
+            "value": 75
           },
           {
             "name": "ЛАДА–ЦЕНТР Озерки",
-            "value": 85
+            "value": 72
           },
           {
             "name": "ЛАДА–ЦЕНТР Пулково",
-            "value": 91
+            "value": 72
           },
           {
             "name": "Питер-Лада",
-            "value": 17
+            "value": 30
           },
           {
             "name": "Прагматика LADA Василеостровский",
-            "value": 14
+            "value": 16
           },
           {
             "name": "Прагматика LADA Парнас",
-            "value": 19
+            "value": 22
           },
           {
             "name": "Прагматика Купчино Лада",
-            "value": 53
+            "value": 55
           },
           {
             "name": "Форсаж LADA",
-            "value": 281
+            "value": 289
           }
         ],
         [
           {
             "name": "Автопродикс Лада",
-            "value": 2
+            "value": 3
           },
           {
             "name": "Аларм Моторс Лада",
-            "value": 28
+            "value": 50
           },
           {
             "name": "Лада Кудрово",
-            "value": 51
+            "value": 34
           },
           {
             "name": "ЛАДА–ЦЕНТР",
-            "value": 31
+            "value": 30
           },
           {
             "name": "ЛАДА–ЦЕНТР Озерки",
-            "value": 29
+            "value": 22
           },
           {
             "name": "ЛАДА–ЦЕНТР Пулково",
-            "value": 35
+            "value": 56
           },
           {
             "name": "Питер-Лада",
-            "value": 0
+            "value": 23
           },
           {
             "name": "Прагматика LADA Василеостровский",
@@ -1192,15 +1236,15 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Прагматика LADA Парнас",
-            "value": 7
-          },
-          {
-            "name": "Прагматика Купчино Лада",
             "value": 12
           },
           {
+            "name": "Прагматика Купчино Лада",
+            "value": 11
+          },
+          {
             "name": "Форсаж LADA",
-            "value": 122
+            "value": 114
           }
         ]
       ],
@@ -1208,183 +1252,187 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "Автопродикс Лада",
-            "value": 18
+            "value": 10
           },
           {
             "name": "Аларм Моторс Лада",
-            "value": 487
+            "value": 519
           },
           {
             "name": "Лада Кудрово",
-            "value": 57
+            "value": 144
           },
           {
             "name": "ЛАДА–ЦЕНТР",
-            "value": 153
+            "value": 185
           },
           {
             "name": "ЛАДА–ЦЕНТР Озерки",
-            "value": 204
+            "value": 200
           },
           {
             "name": "ЛАДА–ЦЕНТР Пулково",
-            "value": 194
+            "value": 208
           },
           {
             "name": "Питер-Лада",
-            "value": 253
+            "value": 175
           },
           {
             "name": "Прагматика LADA Василеостровский",
-            "value": 108
+            "value": 149
           },
           {
             "name": "Прагматика LADA Парнас",
-            "value": 158
+            "value": 137
           },
           {
             "name": "Прагматика Купчино Лада",
-            "value": 209
+            "value": 205
           },
           {
             "name": "Форсаж LADA",
-            "value": 265
+            "value": 267
           }
         ],
         [
           {
             "name": "Автопродикс Лада",
-            "value": 11
+            "value": 9
           },
           {
             "name": "Аларм Моторс Лада",
-            "value": 466
+            "value": 476
           },
           {
             "name": "Лада Кудрово",
-            "value": 146
+            "value": 142
           },
           {
             "name": "ЛАДА–ЦЕНТР",
-            "value": 256
+            "value": 156
           },
           {
             "name": "ЛАДА–ЦЕНТР Озерки",
-            "value": 257
+            "value": 162
           },
           {
             "name": "ЛАДА–ЦЕНТР Пулково",
-            "value": 304
+            "value": 192
           },
           {
             "name": "Питер-Лада",
-            "value": 209
+            "value": 218
           },
           {
             "name": "Прагматика LADA Василеостровский",
-            "value": 158
+            "value": 144
           },
           {
             "name": "Прагматика LADA Парнас",
-            "value": 145
+            "value": 104
           },
           {
             "name": "Прагматика Купчино Лада",
-            "value": 223
+            "value": 213
           },
           {
             "name": "Форсаж LADA",
-            "value": 277
+            "value": 242
           }
         ]
       ],
       "cplDealer": [
-        4744,
-        5173
+        5310,
+        5680
       ],
       "cplMarket": [
-        4564,
-        4873
+        5017,
+        5310
       ],
       "marketAuctionCount": [
-        811,
-        323
+        771,
+        328
+      ],
+      "dealerAuctionCount": [
+        282,
+        108
       ]
     },
     "Li Auto (Lixiang)": {
       "dealer": "Li Auto Форсаж",
       "summary": {
-        "leads": 27,
-        "cpl": 11229,
-        "listings": 67
+        "leads": 23,
+        "cpl": 11962,
+        "listings": 71
       },
       "leads": [
         [
           {
             "name": "Electro РОЛЬФ Автопрайм",
-            "value": 1
-          },
-          {
-            "name": "Electro РОЛЬФ Октябрьская",
-            "value": 7
-          },
-          {
-            "name": "Li Auto Major Олимп",
-            "value": 12
-          },
-          {
-            "name": "Li Auto Автополе",
             "value": 3
           },
           {
+            "name": "Electro РОЛЬФ Октябрьская",
+            "value": 10
+          },
+          {
+            "name": "Li Auto Major Олимп",
+            "value": 7
+          },
+          {
+            "name": "Li Auto Автополе",
+            "value": 1
+          },
+          {
             "name": "Li Auto Форсаж",
-            "value": 18
+            "value": 25
           },
           {
             "name": "Авангард Li Auto",
-            "value": 14
+            "value": 5
           },
           {
             "name": "АВТОDОМ BMW на Стартовой",
-            "value": 0
+            "value": 1
           },
           {
             "name": "Автомир Санкт-Петербург Electro (6671 ЭлектроПремиум Новые ТСК Санкт-Петербург [148] cboid52)",
-            "value": 8
+            "value": 3
           }
         ],
         [
           {
             "name": "Electro РОЛЬФ Автопрайм",
-            "value": 2
+            "value": 1
           },
           {
             "name": "Electro РОЛЬФ Октябрьская",
-            "value": 3
-          },
-          {
-            "name": "Li Auto Major Олимп",
-            "value": 3
-          },
-          {
-            "name": "Li Auto Автополе",
-            "value": 0
-          },
-          {
-            "name": "Li Auto Форсаж",
-            "value": 9
-          },
-          {
-            "name": "Авангард Li Auto",
             "value": 2
           },
           {
+            "name": "Li Auto Major Олимп",
+            "value": 4
+          },
+          {
+            "name": "Li Auto Автополе",
+            "value": 4
+          },
+          {
+            "name": "Li Auto Форсаж",
+            "value": 7
+          },
+          {
+            "name": "Авангард Li Auto",
+            "value": 5
+          },
+          {
             "name": "АВТОDОМ BMW на Стартовой",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Автомир Санкт-Петербург Electro (6671 ЭлектроПремиум Новые ТСК Санкт-Петербург [148] cboid52)",
-            "value": 1
+            "value": 5
           }
         ]
       ],
@@ -1396,45 +1444,15 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Electro РОЛЬФ Октябрьская",
-            "value": 8
+            "value": 6
           },
           {
             "name": "Li Auto Major Олимп",
-            "value": 31
+            "value": 30
           },
           {
             "name": "Li Auto Автополе",
-            "value": 38
-          },
-          {
-            "name": "Li Auto Форсаж",
-            "value": 32
-          },
-          {
-            "name": "Авангард Li Auto",
-            "value": 17
-          },
-          {
-            "name": "Автомир Санкт-Петербург Electro (6671 ЭлектроПремиум Новые ТСК Санкт-Петербург [148] cboid52)",
-            "value": 5
-          }
-        ],
-        [
-          {
-            "name": "Electro РОЛЬФ Автопрайм",
-            "value": 1
-          },
-          {
-            "name": "Electro РОЛЬФ Октябрьская",
-            "value": 7
-          },
-          {
-            "name": "Li Auto Major Олимп",
-            "value": 32
-          },
-          {
-            "name": "Li Auto Автополе",
-            "value": 75
+            "value": 78
           },
           {
             "name": "Li Auto Форсаж",
@@ -1442,43 +1460,155 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Авангард Li Auto",
-            "value": 15
+            "value": 18
+          },
+          {
+            "name": "АВТОDОМ BMW на Стартовой",
+            "value": 0
           },
           {
             "name": "Автомир Санкт-Петербург Electro (6671 ЭлектроПремиум Новые ТСК Санкт-Петербург [148] cboid52)",
             "value": 3
           }
+        ],
+        [
+          {
+            "name": "Electro РОЛЬФ Автопрайм",
+            "value": 1
+          },
+          {
+            "name": "Electro РОЛЬФ Октябрьская",
+            "value": 5
+          },
+          {
+            "name": "Li Auto Major Олимп",
+            "value": 29
+          },
+          {
+            "name": "Li Auto Автополе",
+            "value": 74
+          },
+          {
+            "name": "Li Auto Форсаж",
+            "value": 36
+          },
+          {
+            "name": "Авангард Li Auto",
+            "value": 20
+          },
+          {
+            "name": "АВТОDОМ BMW на Стартовой",
+            "value": 0
+          },
+          {
+            "name": "Автомир Санкт-Петербург Electro (6671 ЭлектроПремиум Новые ТСК Санкт-Петербург [148] cboid52)",
+            "value": 2
+          }
         ]
       ],
       "cplDealer": [
-        11616,
-        11229
+        11915,
+        12008
       ],
       "cplMarket": [
-        11095,
-        10901
+        11144,
+        11036
       ],
       "marketAuctionCount": [
-        63,
-        21
+        49,
+        25
+      ],
+      "dealerAuctionCount": [
+        19,
+        4
       ]
     },
     "Solaris": {
       "dealer": "Solaris Форсаж",
       "summary": {
-        "leads": 35,
-        "cpl": 8385,
-        "listings": 77
+        "leads": 33,
+        "cpl": 8944,
+        "listings": 54
       },
       "leads": [
         [
           {
             "name": "Solaris Восток-Авто Жукова",
-            "value": 19
+            "value": 18
           },
           {
             "name": "Solaris Дакар Невский",
             "value": 29
+          },
+          {
+            "name": "Solaris Мега-Авто Петроградский",
+            "value": 9
+          },
+          {
+            "name": "Solaris Форсаж",
+            "value": 28
+          },
+          {
+            "name": "Аларм-Моторс Solaris",
+            "value": 18
+          },
+          {
+            "name": "ДАКАР Solaris",
+            "value": 5
+          },
+          {
+            "name": "РОЛЬФ Аэропорт Solaris",
+            "value": 23
+          },
+          {
+            "name": "РОЛЬФ Лахта Solaris",
+            "value": 15
+          }
+        ],
+        [
+          {
+            "name": "Solaris Восток-Авто Жукова",
+            "value": 13
+          },
+          {
+            "name": "Solaris Дакар Невский",
+            "value": 5
+          },
+          {
+            "name": "Solaris Мега-Авто Петроградский",
+            "value": 10
+          },
+          {
+            "name": "Solaris Форсаж",
+            "value": 5
+          },
+          {
+            "name": "Аларм-Моторс Solaris",
+            "value": 6
+          },
+          {
+            "name": "ДАКАР Solaris",
+            "value": 4
+          },
+          {
+            "name": "РОЛЬФ Аэропорт Solaris",
+            "value": 6
+          },
+          {
+            "name": "РОЛЬФ Лахта Solaris",
+            "value": 3
+          }
+        ]
+      ],
+      "listings": [
+        [
+          {
+            "name": "Solaris Восток-Авто Жукова",
+            "value": 33
+          },
+          {
+            "name": "Solaris Дакар Невский",
+            "value": 26
           },
           {
             "name": "Solaris Мега-Авто Петроградский",
@@ -1490,65 +1620,25 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "SOLARIS ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 2
+            "value": 1
           },
           {
             "name": "Аларм-Моторс Solaris",
-            "value": 19
+            "value": 60
           },
           {
             "name": "ДАКАР Solaris",
-            "value": 6
+            "value": 11
           },
           {
             "name": "РОЛЬФ Аэропорт Solaris",
-            "value": 18
+            "value": 42
           },
           {
             "name": "РОЛЬФ Лахта Solaris",
-            "value": 17
+            "value": 59
           }
         ],
-        [
-          {
-            "name": "Solaris Восток-Авто Жукова",
-            "value": 8
-          },
-          {
-            "name": "Solaris Дакар Невский",
-            "value": 16
-          },
-          {
-            "name": "Solaris Мега-Авто Петроградский",
-            "value": 3
-          },
-          {
-            "name": "Solaris Форсаж",
-            "value": 10
-          },
-          {
-            "name": "SOLARIS ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 0
-          },
-          {
-            "name": "Аларм-Моторс Solaris",
-            "value": 12
-          },
-          {
-            "name": "ДАКАР Solaris",
-            "value": 2
-          },
-          {
-            "name": "РОЛЬФ Аэропорт Solaris",
-            "value": 8
-          },
-          {
-            "name": "РОЛЬФ Лахта Solaris",
-            "value": 6
-          }
-        ]
-      ],
-      "listings": [
         [
           {
             "name": "Solaris Восток-Авто Жукова",
@@ -1564,85 +1654,51 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Solaris Форсаж",
-            "value": 27
-          },
-          {
-            "name": "SOLARIS ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 18
-          },
-          {
-            "name": "Аларм-Моторс Solaris",
-            "value": 89
-          },
-          {
-            "name": "ДАКАР Solaris",
-            "value": 31
-          },
-          {
-            "name": "РОЛЬФ Аэропорт Solaris",
-            "value": 36
-          },
-          {
-            "name": "РОЛЬФ Лахта Solaris",
-            "value": 56
-          }
-        ],
-        [
-          {
-            "name": "Solaris Восток-Авто Жукова",
-            "value": 16
-          },
-          {
-            "name": "Solaris Дакар Невский",
-            "value": 25
-          },
-          {
-            "name": "Solaris Мега-Авто Петроградский",
-            "value": 6
-          },
-          {
-            "name": "Solaris Форсаж",
             "value": 29
           },
           {
             "name": "SOLARIS ФОРСАЖ КАМЧАТСКАЯ",
-            "value": 3
+            "value": 1
           },
           {
             "name": "Аларм-Моторс Solaris",
-            "value": 99
+            "value": 70
           },
           {
             "name": "ДАКАР Solaris",
-            "value": 34
+            "value": 19
           },
           {
             "name": "РОЛЬФ Аэропорт Solaris",
-            "value": 42
+            "value": 41
           },
           {
             "name": "РОЛЬФ Лахта Solaris",
-            "value": 60
+            "value": 55
           }
         ]
       ],
       "cplDealer": [
-        8645,
-        8385
+        9086,
+        8803
       ],
       "cplMarket": [
-        8107,
-        7796
+        8480,
+        8506
       ],
       "marketAuctionCount": [
-        139,
-        65
+        138,
+        51
+      ],
+      "dealerAuctionCount": [
+        28,
+        5
       ]
     },
     "Soueast": {
       "dealer": "Soueast Форсаж",
       "summary": {
-        "leads": 3,
+        "leads": 1,
         "cpl": 7377,
         "listings": 16
       },
@@ -1650,7 +1706,7 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "SOUEAST ДАКАР Санкт-Петербург",
-            "value": 4
+            "value": 3
           },
           {
             "name": "Soueast Форсаж",
@@ -1658,29 +1714,21 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "Автобиография Центр",
-            "value": 0
-          },
-          {
-            "name": "Евросиб Soueast Лахта New закрыт",
-            "value": 0
+            "value": 1
           }
         ],
         [
           {
             "name": "SOUEAST ДАКАР Санкт-Петербург",
-            "value": 2
+            "value": 1
           },
           {
             "name": "Soueast Форсаж",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Автобиография Центр",
-            "value": 1
-          },
-          {
-            "name": "Евросиб Soueast Лахта New закрыт",
-            "value": 0
+            "value": 2
           }
         ]
       ],
@@ -1688,51 +1736,47 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "SOUEAST ДАКАР Санкт-Петербург",
-            "value": 9
+            "value": 7
           },
           {
             "name": "Soueast Форсаж",
-            "value": 9
+            "value": 6
           },
           {
             "name": "Автобиография Центр",
-            "value": 1
-          },
-          {
-            "name": "Евросиб Soueast Лахта New закрыт",
-            "value": 0
+            "value": 2
           }
         ],
         [
           {
             "name": "SOUEAST ДАКАР Санкт-Петербург",
-            "value": 8
+            "value": 9
           },
           {
             "name": "Soueast Форсаж",
-            "value": 7
+            "value": 10
           },
           {
             "name": "Автобиография Центр",
             "value": 2
-          },
-          {
-            "name": "Евросиб Soueast Лахта New закрыт",
-            "value": 0
           }
         ]
       ],
       "cplDealer": [
         7377,
-        7377
+        0
       ],
       "cplMarket": [
-        7786,
-        8012
+        8049,
+        8237
       ],
       "marketAuctionCount": [
-        6,
-        4
+        5,
+        2
+      ],
+      "dealerAuctionCount": [
+        1,
+        0
       ]
     },
     "УАЗ": {
@@ -1740,31 +1784,9 @@ window.AUTO_RU_REPORT_DATA = {
       "summary": {
         "leads": 3,
         "cpl": 3688,
-        "listings": 9
+        "listings": 5
       },
       "leads": [
-        [
-          {
-            "name": "ДАКАР УАЗ",
-            "value": 9
-          },
-          {
-            "name": "УАЗ Форсаж",
-            "value": 2
-          }
-        ],
-        [
-          {
-            "name": "ДАКАР УАЗ",
-            "value": 4
-          },
-          {
-            "name": "УАЗ Форсаж",
-            "value": 1
-          }
-        ]
-      ],
-      "listings": [
         [
           {
             "name": "ДАКАР УАЗ",
@@ -1772,7 +1794,37 @@ window.AUTO_RU_REPORT_DATA = {
           },
           {
             "name": "УАЗ Форсаж",
-            "value": 4
+            "value": 2
+          },
+          {
+            "name": "Элан-Моторс",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "name": "ДАКАР УАЗ",
+            "value": 7
+          },
+          {
+            "name": "УАЗ Форсаж",
+            "value": 2
+          },
+          {
+            "name": "Элан-Моторс",
+            "value": 0
+          }
+        ]
+      ],
+      "listings": [
+        [
+          {
+            "name": "ДАКАР УАЗ",
+            "value": 10
+          },
+          {
+            "name": "УАЗ Форсаж",
+            "value": 3
           },
           {
             "name": "Элан-Моторс",
@@ -1782,11 +1834,11 @@ window.AUTO_RU_REPORT_DATA = {
         [
           {
             "name": "ДАКАР УАЗ",
-            "value": 8
+            "value": 11
           },
           {
             "name": "УАЗ Форсаж",
-            "value": 5
+            "value": 2
           },
           {
             "name": "Элан-Моторс",
@@ -1803,8 +1855,12 @@ window.AUTO_RU_REPORT_DATA = {
         3688
       ],
       "marketAuctionCount": [
-        11,
-        5
+        7,
+        9
+      ],
+      "dealerAuctionCount": [
+        1,
+        2
       ]
     }
   }

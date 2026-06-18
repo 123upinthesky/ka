@@ -168,7 +168,7 @@ function makeComboCplChart(title, costValues, countValues, lineClass) {
 }
 
 function makeCplCharts(data, dealerName) {
-  const dealerLeadCounts = dealerMetricByMonth(data.leads, dealerName);
+  const dealerLeadCounts = data.dealerAuctionCount || dealerMetricByMonth(data.leads, dealerName);
   return [
     makeComboCplChart("Рынок", data.cplMarket, data.marketAuctionCount, "series-black"),
     makeComboCplChart("Дилер", data.cplDealer, dealerLeadCounts, "series-red"),
